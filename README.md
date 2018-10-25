@@ -16,7 +16,13 @@ The Bessel function Y_0(x) has and infinite number of zeroes in the range 0 < x 
 Examine how the locations of nodes x0, x1, ..., xn affect the accuracy of polynomial interpolation. First, consider equally spaced nodes on [ -1, 1]. Next, try Chebyshev nodes. Test the interpolation vs. the actual function f(x) = cos(10^4x). 
 
 # Ca6: Finite difference method
+Derivatives of functions are approximated by the evaluation of the function at points near the value where we want
+to compute this derivative, divided by some function of the distance between these points.
 
 # Ca7: Trapezoidal rule
+Investigate the rate of convergence of the trapezoidal rule depending on the functions we want to integrate.
 
 # Ca8: Numerical Solution of Kepler's Problem
+Kepler's laws for planetary motion: planets follow closed elliptical orbits around the sun. We wish to compare different numerical methods for solving Kepler's problem for the motion of a simple solar system consisting of two planets (the two-body problem). We will use:
+  1. Euler's method
+  2. Euler's sympletic method, the alternative to the standard method.
